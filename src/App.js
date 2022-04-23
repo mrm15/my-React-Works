@@ -14,11 +14,7 @@ function App() {
       <div className="App">
         <NavBar />
         <Switch>
-          {/*<Route path="/blogs"  component={Blogs}/>*/}
-          <Route
-            path="/blogs"
-            render={(props) => <Blogs name="Ali" {...props} />}
-          />
+          <Route path="/blogs/:author?" render={(props) => <Blogs name="Ali" {...props} />}/>
           <Route path="/aboutUs" component={AboutUs} />
 
           <Route path="/products/:id" component={Product} />

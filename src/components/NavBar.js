@@ -6,7 +6,7 @@ const NavBar = () => {
     return (<div>
             <ul className='navbar'>
                 <li><Link to="/"> خانه </Link></li>
-                <li><Link to="/blogs"> بلاگ </Link></li>
+                <li><Link to="/blogs"> بلاگ پراپز پاس دادم </Link></li>
                 <li><Link to="/products"> محصولات </Link></li>
                 <li><Link to="/aboutUs"> درباره ما  </Link></li>
                 <li><Link to="/wannaCheckFetch">استفاده از دستور  Fetch  </Link></li>
