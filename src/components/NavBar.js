@@ -9,8 +9,12 @@ const NavBar = () => {
                 <li><Link to="/blogs"> بلاگ پراپز پاس دادم </Link></li>
                 <li><Link to="/products"> محصولات </Link></li>
                 <li><Link to="/aboutUs"> درباره ما  </Link></li>
+                <li><Link to="/about"> درباره دایرکت شده به درباره ما  </Link></li>
                 <li><Link to="/wannaCheckFetch">استفاده از دستور  Fetch  </Link></li>
                 <li><Link to="/create">  ایجاد پست جدید </Link></li>
+
+                <li><Link to="/login"> لاگین</Link></li>
+                <li><Link to="/dashboard">   داشبورد</Link></li>
             </ul>
         </div>);
 };
