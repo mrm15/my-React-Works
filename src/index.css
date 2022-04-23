@@ -19,7 +19,6 @@ code {
     padding: 10px;
     background-color: #ede5e5;
     margin: 5px;
-
 }
 
 .post-title {
@@ -41,12 +40,22 @@ li {
 
 ul.navbar {
     display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed darkblue;
 }
 
 ul.navbar li a {
-    padding: 5px;
-    margin:5px;
+    font-size: 14px;
+    padding: 10px;
+    margin: 5px;
     display: block;
     border: 1px solid;
-    border-radius:5px;
+    border-radius: 5px;
+    transition: 200ms linear;
+}
+
+ul.navbar li a:hover {
+    color: darkblue;
+    background-color: #f3eded;
 }
